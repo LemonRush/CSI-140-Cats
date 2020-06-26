@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-
+   <!-- What is this?-->
 <html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
 <head>
 
@@ -7,28 +7,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width= device-width, initial-scale=1.0" />
     <!--#end region meta tags-->
-    <!--#region CSS for every page-->
+    
+    <!--#region CSS for every page -->
+    
+     <!--Missing these two stylesheets or if not using then delete -->
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
     <link href="../'Content/site.css" rel="stylesheet" />
-
-
-    <!--#end region css-->
+  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous">
-    <!-- Tittle -->
-    
-    <title>Cats</title>
-
-
-
     <!-- CSS ------------------------------------------------------------------>
     <!-- 1    ------------------->
     <style>
         ul {
             width:100%;
-            border-radius: 25px;      
-            
+            border-radius: 25px;             
             list-style-type: none;
             margin:0;
             padding: 0;          
@@ -41,134 +35,96 @@
         }
 
         li {
-            display: inline;
-            
+            display: inline;    
         }
         li a {
             display:inline-block ;
             text-align: center;
             padding: 16px 16px;
             text-decoration:dashed;
-            
-            
+   
         }
         li a:hover:not(.active){
             background-color:lightblue;
-            border-radius:25px;
-            
+            border-radius:25px;       
         }
-        img{
-            
+        img{            
            width:60%;
            align-content: center;
            padding:5px;
            border-radius:25px;
-          
-    
-        }
-       
-      
-        
+        }     
     </style>
     <!--- CSS -------------------------------------------------------------------------->
-
-
-
+ <!--#end region css-->
+    <!-- Title -->  
+    <title>Cats</title>
 </head>
-
 <!--#region nav for top of every page -->
 <body>
- 
     <div id="wrapper">
-        
         <nav>
             <div>
-
                 <div class="container">
-
-
-                    <!--   1    ------------------------------------------>
+                    <!--   Missing About, PhotoGallery, and VideoGallery-->
                     <div>
                         <ul>
-                            <li><a href="../Folder Home/Home.html">Home</a></li>
-                            <li><a href="../Folder About/About.html">About</a></li>
-                            <li><a href="../Folder Photo Gallery/Photo Gallery.html">Photo Gallery</a></li>
-                            <li><a href="../Folder Video Gallery/Video Gallery.html">Video Gallery</a></li>
-
+                            <li><a href="../Home.html">Home</a></li>
+                            <li><a href="../About.html">About</a></li>
+                             <!--No Spaces in html pages-->
+                            <li><a href="../PhotoGallery.html">Photo Gallery</a></li>
+                            <li><a href="../VideoGallery.html">Video Gallery</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
-        </div>
-
-
-        <!--#endregion-->
-        <!--#region content that is unique to each page-->
+    </div>
+<!--#endregion-->
+<!--#region content that is unique to each page-->
         <header>
             <div class="container text-center">
                 <div class="row">
-
                     <div>
                         <div>
-
-
-
                             <!-- Wrapper for slides/ image for the first page -------------------------------------------------->
                             <div class="carousel-inner">
                                 <br />
-
                                 <div class="item text-center">
-
+                                   <p>   <!--   Missing images, need to upload them in order to reference them-->
                                     <img src="../images/kitten.jpg"
                                          align="right"
                                          alt="kitten"
-                                         class="center">
-
-                                    
-                                    <br />
-                                    <br />
-                                    <br />
+                                         class="center">                             
+                                    </p>
+                                   <!-- the paragraph <p> tag will cause the line breaks you desire  -->
                                     <div class="container_text">
+                                    <p>
                                         <h2 style="font-family:'Lucida Handwriting'" class="text-left-center">
                                             Cats
                                         </h2>
-                                    </div>
-
-
-
+                                    </p>
+                                   </div>
                                     <div class="carousel-caption">
-                                        <h5 class="carousel-caption-title;"></h5>
-                                        <p></p>
+                                         <p>
+                                        <h5 class="carousel-caption-title">Where's the caption?</h5>
+                                       </p>
                                     </div>
                                 </div>
-
                             </div>
-                            <br />
                             <!------------------------------------------------------------------------------->
                             <!-- Controls -->
-
                         </div>
-
                     </div> <!--endcarousel-->
                 </div>
             </div>
-        </header>
-    
-    
-
-
-
-
+        </header>    
     <!--Home-------------------------------------------------------------------->
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <!--<h2 style="font-family:'Lucida Handwriting'" ;="" class="text-left">
-                    Cats
-                </h2>-->
+            <div class="col-lg-12">              
                 <p>
-                    The cat
+                <h3>The Cat</h3>
                     <i>(Felis Catus, or Felis Catus Silvestri.)</i> is a domestic species of small
                     carnivorous mamal. It is the domesticated species in the family <i>Felidae</i> and is often referred to
                     as the domestic cat to distinguish it from the wild members of the family. A cat can either be a house cat,
@@ -196,18 +152,20 @@
             </div>
         </div>
     </div><!--end of home---------------------------------------------====================================================>
-    <!--#endregion-->
+<!--#endregion-->
     <!--#region footer for every page-->
     <hr>
-
     <footer class="col-lg-12">
-        <p id="copyright">The text content of this site was  borrowed from <a href="https://en.wikipedia.org/wiki/Cat">the Wikipedia article on Cats</a> on <time> June 15, 2020</time> under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a>. Licensing terms of content from other sources (photos, etc.) is noted along with each respective resource.</p>
-        <p class="text-success">© June 2020 Rey Dimas</p>
-        <br>
-        <p></p>
+        <p id="copyright">The text content of this site was borrowed from <a href="https://en.wikipedia.org/wiki/Cat">
+            the Wikipedia article on Cats</a> on <time> June 15, 2020</time> 
+            under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">
+            Creative Commons Attribution-ShareAlike License</a>. 
+        </p>
+         <p>
+            Licensing terms of content from other sources (photos, etc.) is noted along with each respective resource.
+        </p>
+        <p class="text-success" style="margin-bottom:2em;">© June 2020 Rey Dimas</p>    
     </footer>
-    
-
     <!--#endregion-->
     <!--#region scripts for evey page-->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -219,17 +177,21 @@
     </script>
     <!--#endregion-->
 
-
+ <!--  If you are not using these then delete
     <script src="../Scripts/jquery-1.10.2.min.js"></script>
     <script src="../Scripts/jquery.validate.min.js"></script>
     <script src="../Scripts/bootstrap.min.js"></script>
     <script src="../Scripts/respond.min.js"></script>
     <script src="../Scripts/modernizr-2.6.2.js"></script>
+  
+  These are duplicates from above.  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!--#endregion-->
+     -->
+
+<!--#endregion-->
 
 
 </body>
